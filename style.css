@@ -128,3 +128,69 @@ ul li a {
 .local {
     line-height: 1.5;
 }
+
+@media screen and (max-width: 362px) {
+
+    header {
+        background-size: cover;
+        width: 1300px;
+    }
+
+    h1 {
+        font-size: 100px;
+    }
+
+    header p {
+        position: relative;
+        bottom: -25%;
+    }
+
+    main {
+        width: 1300px;
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    .img {
+        margin-left: 16.5%;
+    }
+
+    main p {
+        margin-right: 10%;
+    }
+
+    footer {
+        width: 1300px;
+        height: 1000px;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .logo {
+        margin-top: 1%;
+        font-size: 75px;
+    }
+
+    footer .contact {
+        position: relative;
+        bottom: 5%;
+        font-size: 50px;
+    }
+
+    .contact ul li {
+        font-size: 40px;
+    }
+
+    .end {
+        width: 1300px;
+        height: 75px;
+    }
+
+    .end p {
+        position: relative;
+        top: 30%;
+    }
+}
