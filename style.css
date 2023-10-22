@@ -129,12 +129,16 @@ ul li a {
     line-height: 1.5;
 }
 
-@media screen and (max-width: 362px) {
+@media screen and (max-width: 242px) {
 
     header {
+        background-image: url(img/bg-transformed.jpg);
         background-size: cover;
-        width: 1300px;
+        width: 970px;
+        height: 800px;
     }
+
+    
 
     h1 {
         font-size: 100px;
@@ -146,22 +150,22 @@ ul li a {
     }
 
     main {
-        width: 1300px;
+        width: 970px;
         display: flex;
         flex-direction: column;
-        height: 1200px;
+        height: 1300px;
     }
 
     .img {
-        margin-left: 16.5%;
+        margin-left: 3.5%;
     }
 
     main p {
-        margin-right: 10%;
+        margin-right: 15%;
     }
 
     footer {
-        width: 1300px;
+        width: 970px;
         height: 1000px;
         margin-top: 0;
         display: flex;
@@ -185,7 +189,7 @@ ul li a {
     }
 
     .end {
-        width: 1300px;
+        width: 970px;
         height: 75px;
     }
 
